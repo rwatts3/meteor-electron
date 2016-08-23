@@ -1,10 +1,10 @@
 /* global Package:false, Npm:false */
 
 Package.describe({
-  name: 'meson:electron',
+  name: 'rwatts:electron',
   summary: "Electron",
-  version: "0.1.4",
-  git: "https://github.com/electron-webapps/meteor-electron"
+  version: "0.1.6",
+  git: "https://github.com/rwatts3/meteor-electron"
 });
 
 Npm.depends({
@@ -20,7 +20,7 @@ Npm.depends({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.0");
+  api.versionsFrom("METEOR@1.4.1");
   api.use(["mongo-livedata", "webapp", "ejson", "promise@0.6.7"], "server");
   api.use("underscore", ["server", "client"]);
   api.use(["iron:router@0.9.4||1.0.0"], {weak: true});
