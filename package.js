@@ -68,7 +68,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['meson:electron', 'tinytest']);
+  api.use(['rwatts:electron', 'tinytest']);
 
   api.addFiles('tests/server/downloadUrlsTest.js', 'server');
 });

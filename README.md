@@ -12,8 +12,8 @@ Some of the things it does:
 ![](docs/overview.png)
 
 ## Getting Started
-
-`meteor add meson:electron`
+1
+`meteor add rwatts:electron`
 
 meteor-electron will download the Electron binary for your system and build and launch an Electron
 app pointing to your local development server. The download process may take a few minutes based on
